@@ -72,6 +72,14 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: 'https://ibelick.com',
     id: 'work3',
   },
+  {
+    company: 'Freelance',
+    title: 'Front-end Developer',
+    start: '2017',
+    end: 'Present',
+    link: 'https://ibelick.com',
+    id: 'work4',
+  },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -100,7 +108,7 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/kurtzma',
   },
   {
     label: 'Twitter',
@@ -108,7 +116,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/madeleine-kurtz',
   },
   {
     label: 'Instagram',
@@ -116,4 +124,4 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'kurtz.maddie@email.com'
