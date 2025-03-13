@@ -20,6 +20,8 @@ import {
   SOCIAL_LINKS,
 } from './data'
 
+
+
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
   visible: {
