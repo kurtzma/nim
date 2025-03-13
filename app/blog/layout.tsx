@@ -3,26 +3,6 @@ import { TextMorph } from '@/components/ui/text-morph'
 import { ScrollProgress } from '@/components/ui/scroll-progress'
 import { useEffect, useState } from 'react'
 
-import { Analytics } from '@vercel/analytics/next';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
-
 function CopyButton() {
   const [text, setText] = useState('Copy')
   const currentUrl = typeof window !== 'undefined' ? window.location.href : ''
